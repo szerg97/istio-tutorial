@@ -17,8 +17,11 @@ kubectl apply -f .\4-application-full-stack.yaml
 
 ## Check the pods/svcs running in the namespace ##
 kubectl get pods
+
 kubectl get pods -n istio-system
+
 kubectl get svc
+
 kubectl get svc -n istio-system
 
 ## Check the webapp in the browser
